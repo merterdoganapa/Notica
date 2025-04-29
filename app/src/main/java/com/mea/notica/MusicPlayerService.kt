@@ -22,8 +22,8 @@ class MusicPlayerService : Service() {
     companion object {
         private var currentSongIndex = 0
         val songs = listOf(
-            Song("Without Me", "Eminem", R.drawable.withoutme, R.raw.muse),
-            Song("My Name Is", "Eminem", R.drawable.mynameis, R.raw.twenty)
+            Song("Without Me", "Eminem", R.drawable.withoutme, R.raw.example1),
+            Song("My Name Is", "Eminem", R.drawable.mynameis, R.raw.example2)
         )
     }
 
